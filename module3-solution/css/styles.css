@@ -1,0 +1,54 @@
+#header-nav {
+    background-color: grey;
+    padding: 1em 0 0;
+}
+
+.navbar-header{
+    margin-left: 1em;
+}
+
+.navbar-toggler{
+    text-align: right;
+}
+
+.container{
+    max-width: 95%;
+    padding: 1em 1em;
+}
+
+#mainbox{
+    background-color: grey;
+    box-sizing: border-box;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+
+#menu{
+    margin: 15px;
+}
+
+li{
+    border: black solid;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    background-color: white;
+}
+
+.nav-items{
+    text-align: center;
+}
+
+
+
+@media (min-width: 576px){
+
+    .nav-item{
+        display: none;
+    }
+
+}
+
