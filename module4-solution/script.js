@@ -45,10 +45,10 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // See Lecture 50, part 1
 for (i in names) {
   if(names[i][0]=='j' || names[i][0]=='J'){
-    helloSpeaker.speak(names[i]);
+    byeSpeaker.speak(names[i]);
   }
   else{
-    byeSpeaker.speak(names[i]);
+    helloSpeaker.speak(names[i]);
   }
 
   // STEP 11:
