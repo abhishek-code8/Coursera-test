@@ -44,7 +44,7 @@ li{
 
 
 
-@media (min-width: 576px){
+@media (min-width: 768px){
 
     .nav-item{
         display: none;
