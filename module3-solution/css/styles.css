@@ -19,7 +19,6 @@
 #mainbox{
     background-color: grey;
     box-sizing: border-box;
-    width: 100%;
 }
 h1{
     text-align: center;
